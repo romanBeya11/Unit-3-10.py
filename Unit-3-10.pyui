@@ -1,0 +1,107 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{51, 91}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "enter_marks_textfield",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "F113A99F-7E07-4025-9C52-C24E2A08A559",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{33, 6}, {412, 66}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "enter_marks_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "6CC15301-DCC9-44C1-AA0F-8C331EAEDA1E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter your marks in the textfield below(0-100). Press the ‘Record Mark’ button after each input.",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{285, 91}, {128, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "record_marks_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Record Mark",
+          "uuid" : "7EA59200-80C7-4781-AA5F-F0AEF7CE1751",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "record_marks_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{51, 228}, {362, 77}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "grade_point_average_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "11E9A27F-9353-42CA-A543-F32FB6BA3676",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{108, 153}, {240, 52}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_grade_point_average_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Calculate Average",
+          "uuid" : "7B428BAB-1036-4D29-8F7D-57683FF8C991",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "calculate_average_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
